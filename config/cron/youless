@@ -1,0 +1,5 @@
+# m h  dom mon dow   user  command
+*/5   *       *       *       *    roeles   bash /home/roeles/projects/youless/plot.sh /home/roeles/public_html/power.svg 2>/dev/null
+0       0       1       *       *   roeles    python /home/roeles/projects/youless/code/watt.py < /home/archive/data/youless/watt.csv
+
+
